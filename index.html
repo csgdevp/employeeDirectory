@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Directory</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Awesome Startup Employee Directory</h1>
+        <input
+          type="text"
+          id="search"
+          placeholder="Enter a name to search"
+          onkeyup="filterSearch()"
+        />
+      </header>
+      <main class="employee-grid">
+        <!-- JavaScript will insert content here -->
+      </main>
+      <!-- Overlay code -->
+      <div class="overlay hidden">
+        <div class="modal">
+          <p class="modal-close">X</p>
+          <div class="modal-content">
+            <!-- JavaScript will insert content here -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
